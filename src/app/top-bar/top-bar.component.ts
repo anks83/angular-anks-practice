@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -19,4 +20,27 @@ export class TopBarComponent implements OnInit {
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
+=======
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-top-bar',
+  templateUrl: './top-bar.component.html',
+  styleUrls: ['./top-bar.component.css']
+})
+export class TopBarComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+>>>>>>> 6872f496ac845d54071bb9f824078b315acfb202
 */
